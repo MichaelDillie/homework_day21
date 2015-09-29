@@ -3,19 +3,19 @@ var React = require('react');
 module.exports = React.createClass({
 	render: function() {
 		return(
-			<div>
-				<div>Post your job</div>
-				<h4>Title</h4>
+			<div className="inputComponent">
+				<h3>Post your job</h3>
+				<h4 className="labels">Title</h4>
 				<input type="text" />
-				<h4>Company Name</h4>
+				<h4 className="labels">Company Name</h4>
 				<input type="text" />
-				<h4>Location</h4>
+				<h4 className="labels">Location</h4>
 				<input type="text" />
-				<h4>Description</h4>
+				<h4 className="labels">Description</h4>
 				<textarea></textarea>
-				<h4>Tags</h4>
+				<h4 className="labels">Tags</h4>
 				<input type="text" />
-				<button>Submit Job</button>
+				<button className="input-button">Submit Job</button>
 			</div>
 		)
 	}

@@ -1,3 +1,120 @@
-.main-tips{
-	border: 1em dotted #000;
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	background-color: #F6FCF5
+}
+
+.nav {
+	padding-top: 1em;
+	height: 3em;
+    border-top: 1em solid darkslategrey;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 2em;
+    background-color: white;
+
+    .logo-pic {
+
+    }
+
+    .nav-links {
+    	margin-right: 1em;
+    	font-weight: bold;
+    	color: grey;
+    }
+
+    .logo {
+    	margin-right: 1.5em;
+    	font-weight: bold;
+    	font-size: 1.3em;
+    }
+}
+
+
+
+
+.inputComponent {
+	font-family: sans-serif;
+	border: .4em double;
+    width: 40%;
+    padding-left: 2em;
+    display: inline-block;
+    margin-right: 1%;
+    background-color: white;
+    display: none;
+
+	.labels {
+		margin: .5em 0em 0em 0em;
+	}
+
+	.input-button {
+		display: block;
+	}
+}
+
+
+
+
+.main-tips {
+	border: .4em double black;
+	display: inline-block;
+	width: 50%;
+	background-color: white;
+	display: none;
+}
+
+.job-post-page {
+	border-bottom: .1em solid grey;
+    padding-bottom: 1em;
+    display: none;
+
+    .jobPost-title {
+    	display: inline-block;
+    	margin-right: 20em;
+    	margin-bottom: 1em;
+    	margin-left: 5%;
+    	color: green;
+    	font-family: sans-serif;
+    	font-weight: bold;
+    }
+
+	.jobPost-dateCreated {
+		display: inline-block;
+		color: grey;
+		font-family: sans-serif;
+	}
+
+	.jobPost-company {
+		display: inline-block;
+		margin-right: .3em;
+		margin-bottom: .5em;
+		margin-left: 5%;
+		color: #3D0400;
+		font-family: sans-serif;
+
+	}
+
+	.jobPost-location {
+		display: inline-block;
+		color: #3D0400;
+		font-family: sans-serif;
+	}
+
+	.jobPost-description {
+		margin-left: 5%;
+		color: grey;
+		font-family: sans-serif;
+	}
+
+	.job-tag {
+		border: .1em solid #9A9A00;
+	    background-color: #FFFF8E;
+	    margin-left: 5%;
+	    margin-top: .5em;
+	    display: inline-block;
+	    font-family: sans-serif;
+	}
 }
